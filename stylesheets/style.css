@@ -1,0 +1,55 @@
+@keyframes love{
+	0%{font-size: 72px;}
+	25%{font-size: 100px;}
+	50%{font-size: 72px;}
+	75%{font-size:100px;}
+	100%{font-size: 72px;}
+}
+
+body{
+	background-color: pink;
+}
+
+.flex-container div{
+	font-family: cursive;
+	font-size: 72px;
+	width:50%;
+	height:200px;
+	display:flex;
+	background-color: white;
+	flex-direction:row;
+	display:flex;
+	transition:all 4s;
+	position: relative;
+	justify-content: center;
+	border:red dotted 10px;
+	margin:auto;
+
+}
+p{
+	line-height: 90%;
+}
+
+#divOne{
+
+}
+#divOne:hover{
+		margin:auto;
+		transform:scale(2);
+		
+}
+
+#divTwo{
+	color: red;
+	animation-name:love;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	margin:auto;
+	text-align: center;
+}
+
+#divThree:hover{
+		margin:50px;
+		transform:scale(2);
+		margin:auto;
+}
